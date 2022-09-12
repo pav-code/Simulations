@@ -3,6 +3,7 @@ close all; clear all;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Finite Difference Solution of Laplace Equation
+
 %%    4BC3 - Modelling of Biomedical Systems
 %%             Pavel Gueorguiev                   %%
 %%            McMaster University                 %%
