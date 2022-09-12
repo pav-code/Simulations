@@ -36,5 +36,13 @@
    + Normalizating Constellation
    + Optimal Maximum-Likelihood detection
    + Bits to Ascii
-   + Display the message
+   + Display the message  
+
+Eye diagram at 100 meters, no Line-Of-Sight between transmitter and receiver  
+![image](https://user-images.githubusercontent.com/32593957/189559268-f4a6f7b3-d11d-47e9-8c01-ad4c7c481fdc.png)
+
+Constellation for the 16 QAM of the above  
+![image](https://user-images.githubusercontent.com/32593957/189559293-b99512f7-1356-4bdc-b85e-3d41edb47d82.png)
+
+
 
