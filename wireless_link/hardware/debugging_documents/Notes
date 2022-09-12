@@ -1,0 +1,68 @@
+[High_Speed_Layout_Guidelines.pdf]
+
+Decoupling Capacitors:
+• Place the lowest valued capacitor as close as possible to the device to minimize the inductive influence
+of the trace. This is especially important for small capacitor values, because the inductive influence of
+the trace is not negligible anymore.
+• Place the lowest valued capacitor as close as possible to the power pin/power trace of the device.
+• Connect the pad of the capacitor directly with a via to the ground plane. Use two or three vias to get a
+low-impedance connection to ground. If the distance to the ground pin of the device is short enough,
+you can connect it directly.
+• Make sure that the signal must flow along the capacitor.
+
+On Vias:
+• The use of vias is essential in most routings. But the designer has to be careful when using them. They
+add additional inductance and capacitance, and reflections occur due to the change in the characteristic
+impedance. Vias also increase the trace length.
+• The designer has to make sure that the
+return current can flow ideally underneath (beside) the signal trace. A good way to realize this is to add
+some ground vias around the signal via. This is a similar structure to a coaxial line.
+• Be careful with the return current when changing the layers. Use ground vias around the signal via to
+make sure that the return current can flow as close as possible to the signal (Figure 14).
+• Do not create slots, for example in the ground plane, by using closely placed vias (Figure 15).
+
+
+[Low_Power_RF_Designs.pdf]
+• Impedance matching is critical for maximum power transfer. Additionally, electromagnetic radiation and 
+capacitive coupling among the elements causes unintentional losses.
+• SmartRF studio is a powerful tool for prototyping designs
+• impedance of the trace is critical factor for delivering maximum power out of the balun-filter section 
+to the antenna
+• The ground plane should be continuous; if it is divided, especially under the RF
+path, it can increase the return current’s path length and can significantly affect the desired
+performance
+• A source of high frequency noise on a PCB can be the transient demand of current
+(power) by active devices, causing high frequency harmonics to be generated. The
+generated noise can travel to the power supply pins of the devices, producing undesired
+performance. To prevent this high frequency noise from reaching the power supply pins of the
+devices it is bypassed to the ground plane using a capacitor which provides a low impedance
+path to the high frequency noise.
+• Additionally, the bypass/decoupling capacitor must be carefully selected taking into consideration 
+the self resonance frequency (SRF) of the capacitor. Above the SRF the capacitor behaves as an
+inductor, and thus a capacitor is effective only up to SRF. 
+• It is recommended to keep decoupling/bypass capacitors as close as possible to the supply pins.
+• Additionally, on the top component plane it is usually a good idea to fill the unused area with
+ground plane and then connect this top fill with the ground plane below with several vias. It is
+the recommended to have these vias spaced about 1/10 of the wavelength apart.
+• Inductors on the PCB have associated with them a magnetic field which can couple with other
+components and can affect the design performance in undesired manner, if not taken into
+account.
+• Verify that the top ground pours are stitched to the ground plane layer and bottom
+layer with many vias around the RF signal path. Compare to the reference design.
+Vias on the rest of the board should be no more than λ/10 apart.
+• it is recommended to keep RF traces short, unlike cases 5(b) and
+5(c). Longer traces as in 5(b) introduce undesired impedance changes and affect the
+matching network, leading to undesired performance
+• Bypassing: Do not have vias between the capacitor and active device.
+• It is recommended not to place the silkscreen markings below the area where the chip is to
+be placed as it provides obstructions for the chip to be soldered properly to the PCB pads,
+leading to undesired performance
+• The area under the chip on CCXXXX devices is used for ground connection and shall be
+connected to the ground plane with several vias for good thermal performance and
+sufficiently low inductance to ground.
+
+[PCB_For_Reduced_EMI.pdf]
+• 
+• 
+• 
+• 
