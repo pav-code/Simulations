@@ -2,7 +2,7 @@ clc
 close all; clear all;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Finite Difference Solution of Laplace Equation %
+%% Finite Difference Solution of Laplace Equation %%
 %%    4BC3 - Modelling of Biomedical Systems      %%
 %%             Pavel Gueorguiev                   %%
 %%            McMaster University                 %%
@@ -53,7 +53,7 @@ end
 %%              using Finite Difference           %%
 %%    Dirichlet BC : Inner ring (see above)       %%
 %%    Neumann BC   : Outermost ring equals inner  %%
-%%                   dV/dR = 0                    %%     
+%%                   dV/dR = 0                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 eqCount = 1;
 for i = 2:nR-1
