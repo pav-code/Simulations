@@ -1,0 +1,30 @@
+NRRD0005
+# Complete NRRD file format specification at:
+# http://teem.sourceforge.net/nrrd/format.html
+type: short
+dimension: 4
+space: right-anterior-superior
+sizes: 14 256 256 36
+space directions: none (-0.9375,0,0) (0,-0.9375,0) (0,0,-3)
+kinds: list domain domain domain
+endian: little
+encoding: gzip
+space origin: (125,124.1,79.3)
+measurement frame: (0,-1,0) (1,0,0) (0,0,-1)
+data file: dwiDataset.raw.gz
+modality:=DWMRI
+DWMRI_b-value:=800.000000
+DWMRI_gradient_0000:=0.000000 0.000000 0.000000
+DWMRI_gradient_0001:=0.000000 0.000000 0.000000
+DWMRI_gradient_0002:=-0.823809 -0.417824 -0.383095
+DWMRI_gradient_0003:=-0.568164 0.501987 -0.652072
+DWMRI_gradient_0004:=0.429659 0.143740 0.891477
+DWMRI_gradient_0005:=-0.048212 0.697989 0.714483
+DWMRI_gradient_0006:=0.828687 -0.089667 -0.552483
+DWMRI_gradient_0007:=0.964249 -0.224018 0.141563
+DWMRI_gradient_0008:=-0.194407 0.952698 -0.233609
+DWMRI_gradient_0009:=0.166216 0.617233 -0.769022
+DWMRI_gradient_0010:=-0.353590 -0.917880 -0.180197
+DWMRI_gradient_0011:=-0.740419 -0.577434 0.344020
+DWMRI_gradient_0012:=-0.276306 0.047658 0.959887
+DWMRI_gradient_0013:=0.616882 -0.734886 -0.281779

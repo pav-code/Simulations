@@ -1,0 +1,42 @@
+NRRD0005
+# Complete NRRD file format specification at:
+# http://teem.sourceforge.net/nrrd/format.html
+type: short
+dimension: 4
+space: right-anterior-superior
+sizes: 26 256 256 2
+space directions: none (1.25,0,0) (0,1.25,0) (0,0,5)
+kinds: list domain domain domain
+endian: little
+encoding: gzip
+space origin: (-159.375,-165.229,-57.8656)
+measurement frame: (1,0,0) (0,1,0) (0,0,1)
+data file: breast.raw.gz
+modality:=DWMRI
+DWMRI_b-value:=1000.000000
+DWMRI_gradient_0000:=0.000000 0.000000 0.000000
+DWMRI_gradient_0001:=-0.999537 -0.000000 0.000000
+DWMRI_gradient_0002:=-0.848431 -0.527646 0.000000
+DWMRI_gradient_0003:=0.107951 -0.564742 0.817627
+DWMRI_gradient_0004:=-0.883461 0.344790 -0.314808
+DWMRI_gradient_0005:=0.002999 0.735672 0.676698
+DWMRI_gradient_0006:=0.867670 0.237909 0.435834
+DWMRI_gradient_0007:=-0.799000 -0.370000 0.475000
+DWMRI_gradient_0008:=0.161958 -0.986747 0.000000
+DWMRI_gradient_0009:=-0.865550 0.128933 0.482749
+DWMRI_gradient_0010:=0.211902 0.935567 0.280870
+DWMRI_gradient_0011:=-0.067941 0.891232 -0.445616
+DWMRI_gradient_0012:=-0.549853 0.543855 -0.633831
+DWMRI_gradient_0013:=0.434654 0.421664 0.794368
+DWMRI_gradient_0014:=0.598820 -0.779766 0.181945
+DWMRI_gradient_0015:=0.524948 -0.029997 -0.850915
+DWMRI_gradient_0016:=0.599910 0.687897 0.408938
+DWMRI_gradient_0017:=-0.652709 0.059973 -0.754664
+DWMRI_gradient_0018:=-0.206827 0.075936 -0.974183
+DWMRI_gradient_0019:=0.412856 0.698756 -0.583796
+DWMRI_gradient_0020:=0.435741 -0.821511 -0.365782
+DWMRI_gradient_0021:=-0.461607 -0.873257 0.147874
+DWMRI_gradient_0022:=0.502647 -0.487658 -0.712500
+DWMRI_gradient_0023:=-0.823899 0.529935 0.201975
+DWMRI_gradient_0024:=-0.296912 -0.348896 0.888736
+DWMRI_gradient_0025:=0.039972 -0.317779 -0.946341
