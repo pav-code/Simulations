@@ -1,7 +1,7 @@
 # Simulations
 Digital modulations, Error Control Coding schemes, Channel Estimation Simulations, Medical Images reconstructions and FEM simulations
 
-+ _Error Control Coding_:  
++ _ldpc_stochastic_decoder_:  
   + An implementation of a Low Density Parity Check (LDPC) Stochastic decoder based on research done by Qualcomm
 + _finite_difference_electric_dipole_: 
   + A solution of a spherical version of the Laplace equation to analyze the effect of a dipole in the human brain. Solved via two boundary conditions: Neumann and Dirichlet.
